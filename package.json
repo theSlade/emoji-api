@@ -1,0 +1,36 @@
+{
+  "name": "emoji-api",
+  "version": "1.0.0",
+  "description": "An emoji api, that allows you to get easy emojis!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theslade/conmaster.js.git"
+  },
+  "keywords": [
+    "js",
+    "express",
+    "api"
+  ],
+  "author": "TheSlade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theslade/conmaster.js/issues"
+  },
+  "homepage": "https://github.com/theslade/conmaster.js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "conmaster.js": "^1.1.4",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
